@@ -36,12 +36,16 @@ function deal() {
 
     var playerCard1 = document.createElement('img')
     playerCard1.setAttribute('src', playerHand[0].img)
+    playerCard1.setAttribute('class', 'hand')
     var playerCard2 = document.createElement('img')
     playerCard2.setAttribute('src', playerHand[1].img)
+    playerCard2.setAttribute('class', 'hand')
     var dealerCard1 = document.createElement('img')
     dealerCard1.setAttribute('src', dealerHand[0].img)
+    dealerCard1.setAttribute('class', 'hand')
     var dealerCard2 = document.createElement('img')
     dealerCard2.setAttribute('src', dealerHand[1].img)
+    dealerCard2.setAttribute('class', 'hand')
 
     var playerTable = document.getElementById('player-hand')
     var dealerTable = document.getElementById('dealer-hand')

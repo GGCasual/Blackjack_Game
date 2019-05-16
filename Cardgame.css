@@ -5,3 +5,9 @@ body{
 label{
     margin-top: 100px;
 }
+
+.hand{
+    width: 25%;
+    height: 50%;
+
+}
