@@ -1,4 +1,4 @@
-# Blackjack_Game
+# Blackjack Game
 A card game that's currently under development.
 
 # Technologies Used
